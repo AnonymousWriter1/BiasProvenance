@@ -272,38 +272,38 @@
 
 <owl:NamedIndividual rdf:about="#adult_train.csv">
   <rdf:type rdf:resource="#training_dataset"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">github</description>
+  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location: https://github.com/AnonymousWriter1/BiasProvenance</description>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#adult_test.csv">
   <rdf:type rdf:resource="#testing_dataset"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">github</description>
+  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location: https://github.com/AnonymousWriter1/BiasProvenance</description>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#sex_test.csv">
   <rdf:type rdf:resource="#testing_dataset"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">github</description>
+  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location: https://github.com/AnonymousWriter1/BiasProvenance</description>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#race_test.csv">
   <rdf:type rdf:resource="#testing_dataset"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">github</description>
+  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location: https://github.com/AnonymousWriter1/BiasProvenance</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#1994 Census">
+<owl:NamedIndividual rdf:about="#1994_Census">
   <rdf:type rdf:resource="#data_source"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Census survey">
+<owl:NamedIndividual rdf:about="#Census_survey">
   <rdf:type rdf:resource="#Method_of_collection"/>
   <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Census survey conducted by the US Census Bureau. Year: 1994</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Government Official">
+<owl:NamedIndividual rdf:about="#Government_Official">
   <rdf:type rdf:resource="#data_collector"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Drop NA">
+<owl:NamedIndividual rdf:about="#Drop_NA">
   <rdf:type rdf:resource="#preprocessing_step"/>
 </owl:NamedIndividual>
 
@@ -311,31 +311,31 @@
   <rdf:type rdf:resource="#exclusion_criteria"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#0.67">
+<owl:NamedIndividual rdf:about="#Percentage_Male=0.67">
   <rdf:type rdf:resource="#dataset_class_split"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#0.33">
+<owl:NamedIndividual rdf:about="#Percentage_Female=0.33">
   <rdf:type rdf:resource="#dataset_class_split"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#0.85">
+<owl:NamedIndividual rdf:about="#Percentage_White=0.85">
   <rdf:type rdf:resource="#dataset_class_split"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#0.09">
+<owl:NamedIndividual rdf:about="#Percentage_Black=0.09">
   <rdf:type rdf:resource="#dataset_class_split"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#0.03">
+<owl:NamedIndividual rdf:about="#Percentage_Asian_Pacific_Islander=0.03">
   <rdf:type rdf:resource="#dataset_class_split"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#0.009">
+<owl:NamedIndividual rdf:about="#Percentage_American_Indian=0.009">
   <rdf:type rdf:resource="#dataset_class_split"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#0.008">
+<owl:NamedIndividual rdf:about="#Percentage_Other_Race=0.008">
   <rdf:type rdf:resource="#dataset_class_split"/>
 </owl:NamedIndividual>
 
@@ -343,129 +343,64 @@
   <rdf:type rdf:resource="#model"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#accuracy">
+<owl:NamedIndividual rdf:about="#Original_test_accuracy=82.37051792828686">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84.66613619786486</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#precision">
+<owl:NamedIndividual rdf:about="#Original_test_precision=0.8833455612619222">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.7298676447137618</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#recall">
+<owl:NamedIndividual rdf:about="#Original_test_recall=0.3254054054054054">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.6096164091635589</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#f1">
+<owl:NamedIndividual rdf:about="#Original_test_F1_score=0.4756073474224768">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.6643442920386095</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#auc">
+<owl:NamedIndividual rdf:about="#Original_test_auc=0.655704463266083">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.7674196639267075</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#val accuracy">
+<owl:NamedIndividual rdf:about="#Minority_sex_accuracy=91.6751475676776">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84.66613619786486</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#val precision">
+<owl:NamedIndividual rdf:about="#Minority_sex_precision=0.8894736842105263">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.7298676447137618</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#val recall">
+<owl:NamedIndividual rdf:about="#Minority_sex_recall=0.30341113105924594">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.6096164091635589</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#val f1">
+<owl:NamedIndividual rdf:about="#Minority_sex_F1_score=0.4524765729585007">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.6643442920386095</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#val auc">
+<owl:NamedIndividual rdf:about="#Minority_sex_AUC=0.6492950972100637">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.7674196639267075</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#test accuracy">
+<owl:NamedIndividual rdf:about="#Minority_race_accuracy=89.04306220095694">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83.77822045152723</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#test precision">
+<owl:NamedIndividual rdf:about="#Minority_race_precision=0.7019607843137254">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.8094534711964549</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#test recall">
+<owl:NamedIndividual rdf:about="#Minority_race_recall=0.5391566265060241">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.44432432432432434</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#test f1">
+<owl:NamedIndividual rdf:about="#Minority_race_F1_score=0.6098807495741057">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.5737218635491188</description>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#test auc">
+<owl:NamedIndividual rdf:about="#Minority_race_AUC=0.7479628411255945">
   <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.7051287114579368</description>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#minority sex accuracy">
-  <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91.63443924282517</description>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#minority sex precision">
-  <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.8411214953271028</description>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#minority sex recall">
-  <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.3231597845601436</description>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#minority sex f1">
-  <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.4669260700389105</description>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#minority sex auc">
-  <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.6576772292864997</description>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#minority race accuracy">
-  <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">89.23444976076556</description>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#minority race precision">
-  <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.700374531835206</description>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#minority race recall">
-  <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.5632530120481928</description>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#minority race f1">
-  <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.6243739565943238</description>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#minority race auc">
-  <rdf:type rdf:resource="#performance_metric"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.75887337746892</description>
 </owl:NamedIndividual>
 
 <rdf:Description rdf:about="http://www.w3.org/ns/prov#atLocation">
